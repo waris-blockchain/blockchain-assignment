@@ -1,6 +1,6 @@
 # blockchain-assignment
 
-This Project contains Api to fetch transaction details from Etheruem mainnet
+This Project contains Api to fetch transaction details from Etheruem mainnet. I am using Infura node provider here.
 
 ## Installation
 
@@ -14,10 +14,11 @@ npm install
 
 Make Get request with transaction hash
 
-/eth/api/v1/transaction/0xbeae83e379e9a4c986cfc453fe90e1fa2ca50eaa692ad99abe2aee2214208132'
+localhost:3000/eth/api/v1/transaction/0xbeae83e379e9a4c986cfc453fe90e1fa2ca50eaa692ad99abe2aee2214208132
 
 Sample Response
 
+```json
 {
   "block": {
     "blockHeight": 6179710
@@ -40,6 +41,16 @@ Sample Response
   "state": "confirmed",
   "depositType": "account"
 }
+
+```
+
+## Test Case
+
+Run mocha test cases
+
+```bash
+npm test
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
