@@ -1,0 +1,4 @@
+{
+    "port" : 3000,
+    "ethereumNodeProvider" : "https://mainnet.infura.io/v3/b4f4910e5013451d9c13b5a831830797"
+}
